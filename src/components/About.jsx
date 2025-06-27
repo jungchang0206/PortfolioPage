@@ -38,7 +38,7 @@ const About = () => {
           Seeking a part-time software engineering role or internship to apply my skills and contribute to innovative technical solutions.
         </p>
         <a
-          href="/ChangJungResume.pdf"
+          href="/PortfolioPage/ChangJungResume.pdf"
           download
           className="resume-download-btn"
           target="_blank"
