@@ -349,3 +349,53 @@ main {
     font-size: 1.2rem;
   }
 }
+/* Circular Text Styles */
+.circular-text {
+  margin: 2rem auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  font-weight: 900;
+  color: #61dca3;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: center;
+  transition: all 0.5s ease;
+  background: rgba(15, 23, 20, 0.7);
+  border: 2px solid #61b3dc;
+  box-shadow: 0 0 15px rgba(97, 220, 163, 0.5);
+}
+
+.circular-text:hover {
+  transform: scale(1.05) rotate(5deg);
+  box-shadow: 0 0 25px rgba(97, 220, 163, 0.8);
+}
+
+.circular-text span {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transform-origin: center;
+  animation: rotateText 20s linear infinite;
+}
+
+@keyframes rotateText {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .circular-text {
+    width: 150px;
+    height: 150px;
+    font-size: 0.9rem;
+  }
+}
+
