@@ -29,13 +29,10 @@ const Projects = () => {
 
       <div className="project-item">
         <h3>Automatic License Plate Recognition System</h3>
-        <ul className="project-details">
-          <li>Developed end-to-end ALPR system using YOLOvs for license plate detection and EasyOCR for character recognition.</li>
-          <li>Achieved 85.3% precision and 70.8% average IoU on 433-image dataset through optimized model performance.</li>
-          <li>Implemented custom preprocessing pipeline with CLAHE enhancement and geometric validation filters.</li>
-          <li>Built comprehensive evaluation framework with precision, recall, F1-score, and IoU metrics analysis.</li>
-          <li>Deployed real-time processing capabilities suitable for traffic monitoring and parking management applications.</li>
-        </ul>
+        <p>• Developed end-to-end ALPR system using YOLOv8 for license plate detection and EasyOCR for character recognition.</p>
+        <p>• Achieved 85.3% precision and 70.8% average IoU on 433-image dataset through optimized model performance.</p>
+        <p>• Built comprehensive evaluation framework with precision, recall, F1-score, and IoU metrics analysis.</p>
+        <p>• Technologies: Python, OpenCV, YOLOv8, EasyOCR, CLAHE, Pandas.</p>
       </div>
 
       <div className="project-item">
@@ -50,14 +47,22 @@ const Projects = () => {
             Visit Live Website
           </a>
         </p>
-        <ul className="project-details">
-          <li>Developed full-stack calorie tracking application with real-time USDA food database integration using JavaScript/HTML/CSS.</li>
-          <li>Implemented responsive UI with animated progress tracking for calories and macronutrients (protein, carbs, fat).</li>
-          <li>Designed algorithm for automatic macro-nutrient goal calculation based on user's calorie target (30% protein, 45% carbs, 25% fat).</li>
-          <li>Built food logging system with quantity adjustment and nutritional value calculation per serving.</li>
-          <li>Integrated Harris-Benedict equation calculator for personalized daily calorie needs estimation.</li>
-          <li>Deployed with secure environment variable management for API keys and sensitive configuration.</li>
-        </ul>
+        <p>• Developed full-stack calorie tracking application with real-time USDA food database integration using JavaScript/HTML/CSS.</p>
+        <p>• Implemented responsive UI with animated progress tracking for calories and macronutrients (protein, carbs, fat).</p>
+        <p>• Designed algorithm for automatic macro-nutrient goal calculation based on user's calorie target (30% protein, 45% carbs, 25% fat).</p>
+        <p>• Built food logging system with quantity adjustment and nutritional value calculation per serving.</p>
+        <p>• Integrated Harris-Benedict equation calculator for personalized daily calorie needs estimation.</p>
+        <p>• Deployed with secure environment variable management for API keys and sensitive configuration.</p>
+        <p>• Technologies: JavaScript, HTML, CSS, AWS Amplify, REST API.</p>
+      </div>
+
+      <div className="project-item">
+        <h3>Deep Learn Snake Game</h3>
+        <p>• Developed a classic Snake game with an integrated AI agent using Python and Pygame.</p>
+        <p>• Implemented AI using Deep Q-Learning to autonomously play and improve performance over time.</p>
+        <p>• Visualized training progress and agent decision-making in real time within the game interface.</p>
+        <p>• Designed modular codebase for easy experimentation with different AI algorithms and hyperparameters.</p>
+        <p>• Technologies: Python, Pygame, NumPy, Deep Q-Learning.</p>
       </div>
     </section>
   );
