@@ -8,7 +8,9 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LetterGlitch from './components/LetterGlitch';
-
+import Terminal from './components/Terminal';
+import Now from './components/Now';
+import KeyboardShortcuts from './components/KeyboardShortcuts';
 import './App.css';
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
         zIndex: -1
       }}>
         <LetterGlitch
-          glitchColors={['#2b4539', '#61dca3', '#61b3dc']}
+          glitchColors={['#1a2530', '#3fd8e8', '#2b4a55']}
           glitchSpeed={50}
           smooth={true}
         />
@@ -42,6 +44,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <Terminal />
       </div>
     </div>
   );
