@@ -28,7 +28,7 @@ const About = () => {
 
       <div className="about-layout">
 
-        {/* LEFT */}
+        {/* LEFT SIDE */}
         <div className="about-intro">
           <div className="about-command">
             jung@portfolio:~$ <span>whoami</span>
@@ -39,7 +39,8 @@ const About = () => {
           </h3>
 
           <div className="about-role">
-            SOFTWARE ENGINEER<span className="cursor-blink">_</span>
+            SOFTWARE ENGINEER()
+            <span className="cursor-blink">_</span>
           </div>
 
           <p>
@@ -91,7 +92,7 @@ const About = () => {
           )}
         </div>
 
-        {/* RIGHT */}
+        {/* RIGHT SIDE TERMINAL */}
         <div className="about-terminal-card">
 
           <div className="about-terminal-header">
@@ -114,47 +115,49 @@ const About = () => {
 
           <div className="about-terminal-content">
 
-            <div className="terminal-entry">
-              <span className="terminal-key">role</span>
-              <span className="terminal-value">
-                Software Engineer
+            <div className="about-terminal-entry">
+              <span className="about-terminal-key">role</span>
+              <span className="about-terminal-value">
+                Software Engineer(Hopefully)
               </span>
             </div>
 
-            <div className="terminal-entry">
-              <span className="terminal-key">education</span>
-              <span className="terminal-value">
+            <div className="about-terminal-entry">
+              <span className="about-terminal-key">education</span>
+              <span className="about-terminal-value">
                 B.S. Computer Science
               </span>
             </div>
 
-            <div className="terminal-entry">
-              <span className="terminal-key">graduation</span>
-              <span className="terminal-value">
+            <div className="about-terminal-entry">
+              <span className="about-terminal-key">graduation</span>
+              <span className="about-terminal-value">
                 May 2026
               </span>
             </div>
 
-            <div className="terminal-entry">
-              <span className="terminal-key">location</span>
-              <span className="terminal-value">
+            <div className="about-terminal-entry">
+              <span className="about-terminal-key">location</span>
+              <span className="about-terminal-value">
                 Fairfax, VA
               </span>
             </div>
 
-            <div className="terminal-entry">
-              <span className="terminal-key">status</span>
-              <span className="terminal-value status-online">
+            <div className="about-terminal-entry">
+              <span className="about-terminal-key">status</span>
+              <span className="about-terminal-value status-online">
                 ● Open to opportunities
               </span>
             </div>
 
-            <div className="terminal-divider"></div>
+            <div className="about-terminal-divider"></div>
 
-            <div className="terminal-focus">
-              <span className="terminal-key">currently.focused_on</span>
+            <div className="about-terminal-focus">
+              <span className="about-terminal-key">
+                currently.focused_on
+              </span>
 
-              <div className="focus-tags">
+              <div className="about-focus-tags">
                 <span>AI Agents</span>
                 <span>Full Stack</span>
                 <span>Backend</span>
@@ -163,7 +166,7 @@ const About = () => {
             </div>
 
             {secretUnlocked && (
-              <div className="secret-message">
+              <div className="about-secret-message">
                 <span>ACCESS GRANTED</span>
                 <p>
                   You found the hidden terminal command 👀

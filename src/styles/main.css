@@ -2523,3 +2523,91 @@ span[role="button"]:focus-visible {
     font-size: 1.5rem;
   }
 }
+
+/* =========================================
+   ABOUT TERMINAL CARD
+========================================= */
+
+.about-terminal-content {
+  padding: 1rem 1.25rem;
+}
+
+.about-terminal-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 0.35rem;
+
+  padding: 0.8rem 0;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.about-terminal-key {
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+
+  color: var(--text-muted);
+}
+
+.about-terminal-value {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+
+  color: var(--text-primary);
+}
+
+.about-terminal-divider {
+  height: 1px;
+
+  margin: 1rem 0;
+
+  background: rgba(63, 216, 232, 0.12);
+}
+
+.about-terminal-focus {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.75rem;
+}
+
+.about-focus-tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 0.45rem;
+}
+
+.about-focus-tags span {
+  padding: 0.3rem 0.55rem;
+
+  border: 1px solid rgba(63, 216, 232, 0.25);
+
+  background: rgba(63, 216, 232, 0.04);
+
+  color: var(--border-cyan);
+
+  font-family: var(--font-display);
+  font-size: 0.62rem;
+  letter-spacing: 0.04em;
+}
+
+.about-secret-message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+
+  border: 1px dashed var(--accent-amber);
+
+  color: var(--accent-amber);
+
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+}
+
+.about-secret-message p {
+  margin: 0.4rem 0 0;
+  color: var(--text-muted);
+}
